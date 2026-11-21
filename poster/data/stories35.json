@@ -1,0 +1,436 @@
+{
+ "briefs": [
+  {
+   "lat": 47.9,
+   "lon": 33.3,
+   "n": 14,
+   "place": "Kryvyi Rih",
+   "source": "Kyiv Indep.",
+   "text": "Double strike kills 2, injures 42"
+  },
+  {
+   "lat": 55.7,
+   "lon": 12.6,
+   "n": 15,
+   "place": "Copenhagen",
+   "source": "Al Jazeera",
+   "text": "Russian attaché expelled over a plot"
+  },
+  {
+   "lat": 36.9,
+   "lon": 30.7,
+   "n": 16,
+   "place": "Antalya",
+   "source": "AFP",
+   "text": "EU warns of a “fossil summit”"
+  },
+  {
+   "lat": 36.9,
+   "lon": 30.7,
+   "n": 17,
+   "place": "Antalya",
+   "source": "Al Jazeera",
+   "text": "Panama may block the deal"
+  },
+  {
+   "lat": -6.2,
+   "lon": 106.8,
+   "n": 18,
+   "place": "Antalya",
+   "source": "Antara",
+   "text": "PLN signs clean-power deals"
+  },
+  {
+   "lat": 15.4,
+   "lon": 44.2,
+   "n": 19,
+   "place": "Yemen",
+   "source": "Al Jazeera",
+   "text": "Houthis threaten Jeddah, Red Sea ports"
+  },
+  {
+   "lat": 38.9,
+   "lon": -77.0,
+   "n": 20,
+   "place": "Washington",
+   "source": "Reuters",
+   "text": "Vance: Iran strikes were Trump's call"
+  },
+  {
+   "lat": 38.9,
+   "lon": -77.0,
+   "n": 21,
+   "place": "Washington",
+   "source": "CNN",
+   "text": "Lawmaker threatens SpaceX funding"
+  },
+  {
+   "lat": 30.3,
+   "lon": -97.7,
+   "n": 22,
+   "place": "Texas",
+   "source": "ABC",
+   "text": "Execution of a man of 70 takes 63 min"
+  },
+  {
+   "lat": 34.0,
+   "lon": -118.2,
+   "n": 23,
+   "place": "Los Angeles",
+   "source": "ABC",
+   "text": "Jury convicts Palisades fire starter"
+  },
+  {
+   "lat": 38.6,
+   "lon": -90.2,
+   "n": 24,
+   "place": "Missouri",
+   "source": "AFP",
+   "text": "Judge approves $7.25bn Roundup deal"
+  },
+  {
+   "lat": 49.3,
+   "lon": -123.1,
+   "n": 25,
+   "place": "Vancouver",
+   "source": "AFP",
+   "text": "Canada rests defence in climate trial"
+  },
+  {
+   "lat": 39.0,
+   "lon": 125.8,
+   "n": 26,
+   "place": "Pyongyang",
+   "source": "AFP",
+   "text": "Kim tours factories, no Trump talks"
+  },
+  {
+   "lat": 36.5,
+   "lon": 127.3,
+   "n": 27,
+   "place": "Sejong",
+   "source": "Korea Herald",
+   "text": "Freight train derails; no one hurt"
+  },
+  {
+   "lat": 25.0,
+   "lon": 121.6,
+   "n": 28,
+   "place": "Taipei",
+   "source": "Taipei Times",
+   "text": "Budget and cash payout passed"
+  },
+  {
+   "lat": 13.8,
+   "lon": 100.5,
+   "n": 29,
+   "place": "Bangkok",
+   "source": "The Nation",
+   "text": "Six-point plan on arsenic in rivers"
+  },
+  {
+   "lat": 28.6,
+   "lon": 77.2,
+   "n": 30,
+   "place": "New Delhi",
+   "source": "Dawn",
+   "text": "Pakistani minister joins SCO forum"
+  },
+  {
+   "lat": 22.6,
+   "lon": 88.4,
+   "n": 31,
+   "place": "Eastern India",
+   "source": "ETV",
+   "text": "Rain alerts as Akvan's remnants move on"
+  },
+  {
+   "lat": 16.8,
+   "lon": 96.2,
+   "n": 32,
+   "place": "Myanmar",
+   "source": "AP",
+   "text": "Rights groups urge sanctions"
+  },
+  {
+   "lat": -20.2,
+   "lon": 57.5,
+   "n": 33,
+   "place": "Port Louis",
+   "source": "Al Jazeera",
+   "text": "Ratings agency talks to 15 states"
+  },
+  {
+   "lat": -37.8,
+   "lon": 145.0,
+   "n": 34,
+   "place": "Melbourne",
+   "source": "ABC",
+   "text": "Cummins keeps the captaincy"
+  },
+  {
+   "lat": 36.1,
+   "lon": -115.2,
+   "n": 35,
+   "place": "Las Vegas",
+   "source": "Autosport",
+   "text": "Verstappen sent to stewards"
+  }
+ ],
+ "features": [
+  {
+   "art": "kyiv",
+   "banner": "KYIV: WARNING",
+   "chip": "REPORTED",
+   "deck": "He warns of double-tap strikes ahead.",
+   "headline": "Zelensky: Crimea bridge “will not stay”",
+   "lat": 50.45,
+   "lon": 30.52,
+   "n": 4,
+   "place": "KYIV",
+   "source": "NBC",
+   "src_note": "Interview · NBC",
+   "topic": "WAR"
+  },
+  {
+   "art": "hormuz",
+   "banner": "HORMUZ: DRONE",
+   "chip": "REPORTED",
+   "deck": "No confirmation yet from Washington.",
+   "headline": "Iran says it downed a US drone",
+   "lat": 26.6,
+   "lon": 56.3,
+   "n": 5,
+   "place": "STRAIT OF HORMUZ",
+   "source": "IRIB",
+   "src_note": "Iran's claim · IRIB",
+   "topic": "WAR"
+  },
+  {
+   "art": "uranium",
+   "banner": "IRAN: URANIUM",
+   "chip": "OFFICIAL",
+   "deck": "Minister still seeks a “fair solution”.",
+   "headline": "Iran: uranium stock stays at home",
+   "lat": 35.7,
+   "lon": 51.4,
+   "n": 6,
+   "place": "TEHRAN",
+   "source": "ToI",
+   "src_note": "Statement · ToI",
+   "topic": "DIPLOMACY"
+  },
+  {
+   "art": "aitax",
+   "banner": "TRUMP: AI TAX",
+   "chip": "REPORTED",
+   "deck": "“Tremendous” penalty; no details yet.",
+   "headline": "Trump vows tax on data centres abroad",
+   "lat": 38.9,
+   "lon": -77.0,
+   "n": 7,
+   "place": "WASHINGTON",
+   "source": "ABC",
+   "src_note": "Briefing · ABC",
+   "topic": "TECHNOLOGY"
+  },
+  {
+   "art": "chinajapan",
+   "banner": "CHINA–JAPAN",
+   "chip": "OFFICIAL",
+   "deck": "Tokyo says its stance is unchanged.",
+   "headline": "Beijing tells Tokyo to “correct” Taiwan words",
+   "lat": 39.9,
+   "lon": 116.4,
+   "n": 8,
+   "place": "BEIJING",
+   "source": "AFP",
+   "src_note": "Ministry · AFP",
+   "topic": "DIPLOMACY"
+  },
+  {
+   "art": "davao",
+   "banner": "DAVAO: 146 SAFE",
+   "chip": "OFFICIAL",
+   "deck": "Air Niugini 767 diverts after midnight.",
+   "headline": "Jet lands safely after engine fire alert",
+   "lat": 7.1,
+   "lon": 125.6,
+   "n": 9,
+   "place": "DAVAO",
+   "source": "AP",
+   "src_note": "Airline · AP",
+   "topic": "AVIATION"
+  },
+  {
+   "art": "canberra",
+   "banner": "CANBERRA: AI",
+   "chip": "OFFICIAL",
+   "deck": "Albanese ends an 11-day trip.",
+   "headline": "Australia and China agree AI talks",
+   "lat": -35.3,
+   "lon": 149.1,
+   "n": 10,
+   "place": "CANBERRA",
+   "source": "ABC",
+   "src_note": "Agreed · ABC",
+   "topic": "DIPLOMACY"
+  },
+  {
+   "art": "bitcoin",
+   "banner": "BITCOIN: $58,983",
+   "chip": "CONFIRMED",
+   "deck": "Down 3.9% in 24 hours; ether $1,625.",
+   "headline": "Bitcoin slips below $59,000",
+   "lat": null,
+   "lon": null,
+   "n": 11,
+   "place": "WORLD",
+   "source": "CoinGecko",
+   "space": true,
+   "src_note": "CoinGecko · 02:08 UTC",
+   "topic": "MARKETS"
+  },
+  {
+   "art": "f1",
+   "banner": "RUSSELL: P1",
+   "chip": "OFFICIAL",
+   "deck": "1:34.041 in a damp, messy session.",
+   "headline": "Russell fastest in final Vegas practice",
+   "lat": 36.1,
+   "lon": -115.2,
+   "n": 12,
+   "place": "LAS VEGAS",
+   "source": "Formula 1",
+   "src_note": "Timing · Formula 1",
+   "topic": "FORMULA ONE"
+  },
+  {
+   "art": "cricket",
+   "banner": "RAHUL: 124*",
+   "chip": "OFFICIAL",
+   "deck": "India 344 for 2 at tea, replying to 368.",
+   "headline": "Rahul century puts India on top",
+   "lat": -41.3,
+   "lon": 174.8,
+   "n": 13,
+   "place": "WELLINGTON",
+   "source": "AFP",
+   "src_note": "Tea, day 3 · AFP",
+   "topic": "CRICKET"
+  }
+ ],
+ "leads": [
+  {
+   "art": "riyadh",
+   "banner": "MISSILES OVER RIYADH",
+   "banner2": "3 SHOT DOWN",
+   "chip": "OFFICIAL",
+   "deck": "Third night of alerts in a row: two blasts heard about 02:00, no damage or casualties.",
+   "headline": "Saudi defences down three missiles aimed at the capital",
+   "lat": 24.7,
+   "lon": 46.7,
+   "n": 1,
+   "place": "RIYADH · SAUDI ARABIA",
+   "source": "Reuters · AFP",
+   "src_note": "Coalition statement",
+   "topic": "WAR"
+  },
+  {
+   "art": "cop31",
+   "banner": "COP31 IN OVERTIME",
+   "banner2": "NO DEAL · DAY 13",
+   "chip": "CONFIRMED",
+   "deck": "A draft with no mention of fossil fuels split nearly 200 countries. A third text is promised for Saturday morning.",
+   "headline": "Climate summit misses deadline and runs into a 13th day",
+   "lat": 36.9,
+   "lon": 30.7,
+   "n": 2,
+   "place": "ANTALYA · TÜRKIYE",
+   "source": "AP · AFP",
+   "src_note": "AP · AFP",
+   "topic": "CLIMATE"
+  },
+  {
+   "art": "quake",
+   "banner": "QUAKE SHAKES PERU",
+   "banner2": "00:09 UTC · 108 KM",
+   "chip": "OFFICIAL",
+   "deck": "A deep tremor struck near Carhuamayo just after midnight UTC. Peru's institute reported no deaths, no damage and no tsunami risk.",
+   "headline": "Magnitude 6.7 earthquake rattles central Peru, felt in Lima",
+   "lat": -11.0,
+   "lon": -75.5,
+   "n": 3,
+   "place": "CARHUAMAYO · PERU",
+   "source": "USGS · IGP",
+   "src_note": "USGS · IGP",
+   "topic": "EARTHQUAKE"
+  }
+ ],
+ "meta": {
+  "corner": "35 STORIES · 7 REGIONS · EVERY ONE DATED SATURDAY 21 NOVEMBER 2026",
+  "date": "Saturday 21 November 2026",
+  "datecheck": "Left out because they belong to Friday 20 November: Wall Street's fall into correction · the Russian barrage on Kyiv's bridges · the missile that landed in Poland · the UK–EU deal · Cyclone Akvan's landfall. Older still: Voyager 1's light-day (18 Nov). Not confirmed when this page was drawn, so not shown: BepiColombo entering Mercury orbit · a final COP31 text.",
+  "footer": "Every story here happened, or was first reported, on Saturday 21 November 2026.",
+  "footer2": "Sources named beside each story · Original drawings · HOW WE CHECKED: CONFIRMED = 2+ outlets · OFFICIAL = on the record · REPORTED = one outlet · CLAIM = one side's account",
+  "kicker": "THE WORLD IN ONE DAY",
+  "regions": [
+   [
+    "Europe",
+    4
+   ],
+   [
+    "Asia",
+    10
+   ],
+   [
+    "Middle East",
+    5
+   ],
+   [
+    "Africa",
+    1
+   ],
+   [
+    "Americas",
+    11
+   ],
+   [
+    "Oceania",
+    3
+   ],
+   [
+    "Global",
+    1
+   ]
+  ],
+  "stats": [
+   [
+    "3",
+    "missiles downed over Riyadh"
+   ],
+   [
+    "124*",
+    "Rahul's score at tea"
+   ],
+   [
+    "DAY 13",
+    "of COP31, meant to close day 12"
+   ],
+   [
+    "$58,983",
+    "bitcoin early Saturday, -3.9%"
+   ],
+   [
+    "6.7",
+    "magnitude of the Peru quake"
+   ],
+   [
+    "146",
+    "safe after the Davao landing"
+   ]
+  ],
+  "strap": "COP31 talks run into overtime · missiles over Riyadh · a quake shakes Peru",
+  "title": "Saturday 21 November 2026"
+ }
+}
