@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1024px;height:1024px;background:#f6f1e5;color:#1c1a17;font-family:Arial,Helvetica,sans-serif;padding:0 14px}
+.topbar{background:#a31d21;color:#fff;display:flex;justify-content:space-between;align-items:center;height:24px;padding:0 10px;margin:0 -14px}
+.topbar .kick{font-weight:800;font-size:11.5px;letter-spacing:2px}
+.topbar .corner{font-size:9.5px;letter-spacing:0.4px}
+h1{font-family:Georgia,'Times New Roman',serif;font-size:56px;line-height:1.04;text-align:center;padding:4px 0 0}
+.strap{text-align:center;font-family:Georgia,serif;font-style:italic;font-size:14.5px;color:#4a4438;padding:2px 0 6px;border-bottom:2px solid #1c1a17}
+.stats{display:flex;border-bottom:1px solid #b9ad93}
+.stats div{flex:1;padding:6px 8px 5px;border-right:1px solid #d8cfb8}
+.stats div:last-child{border-right:0}
+.stats b{display:block;font-size:25px;color:#a31d21;line-height:1}
+.stats span{font-size:9.5px;line-height:1.25;display:block;margin-top:3px;color:#3d382e}
+.regions{display:flex;margin-top:5px}
+.regions span{flex:1;color:#fff;font-size:10.5px;font-weight:700;text-align:center;padding:3px 0}
+.regions i{font-size:8px;margin-right:3px}
+.leads{display:flex;gap:8px;margin-top:6px}
+.lead{flex:1;background:#fdfaf1;border:1px solid #d8cfb8;padding-bottom:5px}
+.art svg{display:block;width:100%;height:100%}
+.lead .art{height:96px}
+.banner{background:#a31d21;color:#fff;display:flex;justify-content:space-between;gap:8px;padding:3px 8px;font-size:12.5px;font-weight:800;letter-spacing:0.4px}
+.banner2{font-weight:700}
+.kicker{font-size:10px;font-weight:700;color:#a31d21;letter-spacing:0.5px;padding:6px 8px 0}
+.lead h2{font-family:Georgia,serif;font-size:19px;line-height:1.12;padding:3px 8px 0}
+.deck{font-size:11.5px;line-height:1.35;padding:5px 8px 0;color:#2c2822}
+.srcrow{display:flex;justify-content:space-between;align-items:center;padding:6px 8px 0}
+.src{font-size:9.5px;color:#6b6455}
+.chip{font-size:8.5px;font-weight:800;letter-spacing:0.6px;padding:2px 6px;border-radius:2px;color:#fff;background:#2e7d4f}
+.chip-reported{background:#b8860b}
+.chip-claim{background:#8a1f2d}
+.chip-official{background:#1d4f9c}
+.feats{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:7px}
+.feat{background:#fdfaf1;border:1px solid #d8cfb8;padding-bottom:4px}
+.feat .art{height:40px}
+.fbanner{background:#1d2a44;color:#fff;font-size:9.5px;font-weight:800;letter-spacing:0.4px;padding:2.5px 6px}
+.fkicker{font-size:8.5px;font-weight:700;color:#a31d21;padding:3px 6px 0;letter-spacing:0.3px}
+.feat h3{font-family:Georgia,serif;font-size:12px;line-height:1.15;padding:2px 6px 0}
+.fdeck{font-size:9.5px;line-height:1.28;padding:2px 6px 0;color:#2c2822}
+.fsrcrow{display:flex;justify-content:space-between;align-items:center;padding:3px 6px 0}
+.fsrcrow .src{font-size:8.5px}
+.fsrcrow .chip{font-size:7.5px;padding:1.5px 5px}
+.bottom{display:flex;gap:10px;margin-top:7px}
+.mapbox{width:360px;flex:none}
+.briefbox{flex:1}
+.sect{font-size:12.5px;font-weight:800;letter-spacing:0.6px;border-bottom:2px solid #1c1a17;padding-bottom:3px;margin-bottom:5px}
+.briefcols{display:flex;gap:12px}
+.briefcols ol{list-style:none;flex:1}
+.briefcols li{font-size:9.8px;line-height:1.3;padding:2px 0}
+.briefcols li b:first-child{color:#a31d21}
+.bsrc{color:#6b6455;font-size:9.5px}
+.mapnote{font-size:9.5px;color:#6b6455;margin-top:3px}
+.datecheck{border:1.6px solid #a31d21;margin-top:6px;padding:4px 9px;font-size:10px;line-height:1.35}
+.datecheck b{color:#a31d21;letter-spacing:0.6px}
+footer{display:block;text-align:center;font-size:9.5px;color:#6b6455;padding:3px 0 0;line-height:1.4}
+</style></head><body>
+<div class="topbar"><span class="kick">THE WORLD IN ONE DAY</span><span class="corner">35 STORIES · 7 REGIONS · EVERY ONE DATED SATURDAY 21 NOVEMBER 2026</span></div>
+<h1>Saturday 21 November 2026</h1>
+<div class="strap">COP31 talks run into overtime · missiles over Riyadh · a quake shakes Peru</div>
+<div class="stats"><div><b>3</b><span>missiles downed over Riyadh</span></div><div><b>124*</b><span>Rahul's score at tea</span></div><div><b>DAY 13</b><span>of COP31, meant to close day 12</span></div><div><b>$58,983</b><span>bitcoin early Saturday, -3.9%</span></div><div><b>6.7</b><span>magnitude of the Peru quake</span></div><div><b>146</b><span>safe after the Davao landing</span></div></div>
+<div class="regions"><span style="background:#1d4f9c"><i>●</i> Europe · 4</span><span style="background:#b3541e"><i>●</i> Asia · 10</span><span style="background:#8a1f2d"><i>●</i> Middle East · 5</span><span style="background:#2e7d4f"><i>●</i> Africa · 1</span><span style="background:#6a4a8f"><i>●</i> Americas · 11</span><span style="background:#b8860b"><i>●</i> Oceania · 3</span><span style="background:#555"><i>●</i> Global · 1</span></div>
+<div class="leads">
+  <article class="lead">
+    <div class="art"><svg viewBox="0 0 320 110" preserveAspectRatio="xMidYMid slice"><rect width="320" height="110" fill="#101a33"/>
+        <rect x="0" y="74" width="41.714285714285715" height="36" fill="#0e1526"/><rect x="3" y="79" width="4" height="5" fill="#ffd76a"/><rect x="23.857142857142858" y="88" width="4" height="5" fill="#ffd76a"/><rect x="3" y="97" width="4" height="5" fill="#ffd76a"/><rect x="45.714285714285715" y="44.39999999999999" width="41.714285714285715" height="65.60000000000001" fill="#0e1526"/><rect x="69.57142857142857" y="49.39999999999999" width="4" height="5" fill="#ffd76a"/><rect x="48.714285714285715" y="58.39999999999999" width="4" height="5" fill="#ffd76a"/><rect x="69.57142857142857" y="67.39999999999999" width="4" height="5" fill="#ffd76a"/><rect x="91.42857142857143" y="54.800000000000004" width="41.714285714285715" height="55.199999999999996" fill="#0e1526"/><rect x="94.42857142857143" y="59.800000000000004" width="4" height="5" fill="#ffd76a"/><rect x="115.28571428571429" y="68.80000000000001" width="4" height="5" fill="#ffd76a"/><rect x="94.42857142857143" y="77.80000000000001" width="4" height="5" fill="#ffd76a"/><rect x="137.14285714285714" y="65.19999999999999" width="41.714285714285715" height="44.800000000000004" fill="#0e1526"/><rect x="161" y="70.19999999999999" width="4" height="5" fill="#ffd76a"/><rect x="140.14285714285714" y="79.19999999999999" width="4" height="5" fill="#ffd76a"/><rect x="161" y="88.19999999999999" width="4" height="5" fill="#ffd76a"/><rect x="182.85714285714286" y="35.60000000000001" width="41.714285714285715" height="74.39999999999999" fill="#0e1526"/><rect x="185.85714285714286" y="40.60000000000001" width="4" height="5" fill="#ffd76a"/><rect x="206.71428571428572" y="49.60000000000001" width="4" height="5" fill="#ffd76a"/><rect x="185.85714285714286" y="58.60000000000001" width="4" height="5" fill="#ffd76a"/><rect x="228.57142857142858" y="46" width="41.714285714285715" height="64" fill="#0e1526"/><rect x="252.42857142857144" y="51" width="4" height="5" fill="#ffd76a"/><rect x="231.57142857142858" y="60" width="4" height="5" fill="#ffd76a"/><rect x="252.42857142857144" y="69" width="4" height="5" fill="#ffd76a"/><rect x="274.2857142857143" y="56.4" width="41.714285714285715" height="53.6" fill="#0e1526"/><rect x="277.2857142857143" y="61.4" width="4" height="5" fill="#ffd76a"/><rect x="298.1428571428571" y="70.4" width="4" height="5" fill="#ffd76a"/><rect x="277.2857142857143" y="79.4" width="4" height="5" fill="#ffd76a"/>
+        <path d="M20 78 Q 90 10 150 55" stroke="#ffd76a" stroke-width="1.6" fill="none" stroke-dasharray="4 4"/>
+        <path d="M90 82 Q 170 5 250 48" stroke="#ffd76a" stroke-width="1.6" fill="none" stroke-dasharray="4 4"/>
+        <path d="M180 84 Q 240 20 300 40" stroke="#ffd76a" stroke-width="1.6" fill="none" stroke-dasharray="4 4"/>
+        <g fill="#ffd76a"><circle cx="150" cy="55" r="3.5"/><circle cx="250" cy="48" r="3.5"/><circle cx="300" cy="40" r="3.5"/>
+        <path d="M150 44 l2 6 6 1 -5 4 1 6 -5 -3 -5 3 1 -6 -5 -4 6 -1z"/><path d="M250 37 l2 6 6 1 -5 4 1 6 -5 -3 -5 3 1 -6 -5 -4 6 -1z"/></g>
+        <circle cx="292" cy="16" r="9" fill="#f4ead0"/></svg></div>
+    <div class="banner"><span>MISSILES OVER RIYADH</span><span class="banner2">3 SHOT DOWN</span></div>
+    <div class="kicker">1 · RIYADH · SAUDI ARABIA · WAR</div>
+    <h2>Saudi defences down three missiles aimed at the capital</h2>
+    <p class="deck">Third night of alerts in a row: two blasts heard about 02:00, no damage or casualties.</p>
+    <div class="srcrow"><span class="src">Coalition statement</span><span class="chip chip-official">OFFICIAL</span></div>
+  </article>
+  <article class="lead">
+    <div class="art"><svg viewBox="0 0 320 110" preserveAspectRatio="xMidYMid slice"><rect width="320" height="110" fill="#dcead9"/>
+        <circle cx="70" cy="55" r="38" fill="#7fb3d5"/><path d="M40 45 q18 -14 34 -4 q14 10 4 22 q-16 12 -30 2 q-12 -10 -8 -20z" fill="#5da271"/>
+        <circle cx="70" cy="55" r="38" fill="none" stroke="#3d6b8f" stroke-width="2"/>
+        <rect x="150" y="14" width="12" height="66" rx="6" fill="#fff" stroke="#a31d21" stroke-width="2"/>
+        <rect x="153" y="34" width="6" height="44" fill="#a31d21"/><circle cx="156" cy="82" r="11" fill="#a31d21"/>
+        <circle cx="252" cy="52" r="34" fill="#fff" stroke="#1c1a17" stroke-width="2.5"/>
+        <line x1="252" y1="52" x2="252" y2="26" stroke="#1c1a17" stroke-width="3"/><line x1="252" y1="52" x2="270" y2="58" stroke="#a31d21" stroke-width="3"/>
+        <circle cx="252" cy="52" r="3" fill="#1c1a17"/></svg></div>
+    <div class="banner"><span>COP31 IN OVERTIME</span><span class="banner2">NO DEAL · DAY 13</span></div>
+    <div class="kicker">2 · ANTALYA · TÜRKIYE · CLIMATE</div>
+    <h2>Climate summit misses deadline and runs into a 13th day</h2>
+    <p class="deck">A draft with no mention of fossil fuels split nearly 200 countries. A third text is promised for Saturday morning.</p>
+    <div class="srcrow"><span class="src">AP · AFP</span><span class="chip chip-confirmed">CONFIRMED</span></div>
+  </article>
+  <article class="lead">
+    <div class="art"><svg viewBox="0 0 320 110" preserveAspectRatio="xMidYMid slice"><rect width="320" height="110" fill="#f2e3cd"/>
+        <polyline points="0,52 40,52 58,20 76,84 92,34 108,66 126,52 170,52 188,26 206,78 224,44 240,60 258,52 320,52" fill="none" stroke="#a31d21" stroke-width="3"/>
+        <g fill="#8a6d4b"><rect x="30" y="76" width="34" height="20"/><path d="M26 78 L47 62 L68 78z"/><rect x="238" y="74" width="40" height="22"/><path d="M234 76 L258 58 L282 76z"/></g>
+        <text x="292" y="34" font-family="Georgia" font-size="30" font-weight="bold" fill="#a31d21" text-anchor="end">6.7</text>
+        <text x="292" y="50" font-family="Arial" font-size="10" fill="#6b6455" text-anchor="end">00:09 UTC</text></svg></div>
+    <div class="banner"><span>QUAKE SHAKES PERU</span><span class="banner2">00:09 UTC · 108 KM</span></div>
+    <div class="kicker">3 · CARHUAMAYO · PERU · EARTHQUAKE</div>
+    <h2>Magnitude 6.7 earthquake rattles central Peru, felt in Lima</h2>
+    <p class="deck">A deep tremor struck near Carhuamayo just after midnight UTC. Peru's institute reported no deaths, no damage and no tsunami risk.</p>
+    <div class="srcrow"><span class="src">USGS · IGP</span><span class="chip chip-official">OFFICIAL</span></div>
+  </article></div>
+<div class="feats">
+  <article class="feat">
+    <div class="art"><svg viewBox="0 0 320 110" preserveAspectRatio="xMidYMid slice"><rect width="320" height="110" fill="#f7d54d"/>
+        <rect y="55" width="320" height="55" fill="#2f6fb2"/>
+        <path d="M0 78 Q160 8 320 78" stroke="#1c1a17" stroke-width="5" fill="none"/>
+        <line x1="40" y1="72" x2="40" y2="100" stroke="#1c1a17" stroke-width="3"/><line x1="160" y1="46" x2="160" y2="100" stroke="#1c1a17" stroke-width="3"/><line x1="280" y1="72" x2="280" y2="100" stroke="#1c1a17" stroke-width="3"/>
+        <path d="M286 34 l16 26 h-32z" fill="#a31d21"/><text x="286" y="56" font-family="Arial" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle">!</text></svg></div>
+    <div class="fbanner">KYIV: WARNING</div>
+    <div class="fkicker">4 · KYIV · WAR</div>
+    <h3>Zelensky: Crimea bridge “will not stay”</h3>
+    <p class="fdeck">He warns of double-tap strikes ahead.</p>
+    <div class="fsrcrow"><span class="src">Interview · NBC</span><span class="chip chip-reported">REPORTED</span></div>
+  </article>
+  <article class="feat">
+    <div class="art"><svg viewBox="0 0 320 110" preserveAspectRatio="xMidYMid slice"><rect width="320" height="110" fill="#bcd6e2"/>
+        <rect y="66" width="320" height="44" fill="#2e6f8e"/>
+        <path d="M60 66 L260 66 L240 92 L84 92z" fill="#5b4636"/><rect x="120" y="44" width="80" height="22" fill="#7a5c42"/>
+        <g fill="#3a3a3a"><ellipse cx="160" cy="30" rx="26" ry="7"/><rect x="150" y="18" width="20" height="12" rx="4"/><circle cx="138" cy="30" r="5"/><circle cx="182" cy="30" r="5"/></g>
+        <path d="M20 100 q20 -8 40 0 t40 0 t40 0 t40 0 t40 0 t40 0" stroke="#fff" stroke-width="2" fill="none" opacity="0.7"/></svg></div>
+    <div class="fbanner">HORMUZ: DRONE</div>
+    <div class="fkicker">5 · STRAIT OF HORMUZ · WAR</div>
+    <h3>Iran says it downed a US drone</h3>
+    <p class="fdeck">No confirmation yet from Washington.</p>
+    <div class="fsrcrow"><span class="src">Iran's claim · IRIB</span><span class="chip chip-reported">REPORTED</span></div>
+  </article>
+  <article class="feat">
+    <div class="art"><svg viewBox="0 0 320 110" preserveAspectRatio="xMidYMid slice"><rect width="320" height="110" fill="#efe6d2"/>
+        <g stroke="#a31d21" stroke-width="2.5" fill="none"><ellipse cx="160" cy="55" rx="70" ry="26"/><ellipse cx="160" cy="55" rx="70" ry="26" transform="rotate(60 160 55)"/><ellipse cx="160" cy="55" rx="70" ry="26" transform="rotate(120 160 55)"/></g>
+        <circle cx="160" cy="55" r="14" fill="#1d2a44"/><circle cx="160" cy="55" r="5" fill="#ffd76a"/></svg></div>
+    <div class="fbanner">IRAN: URANIUM</div>
+    <div class="fkicker">6 · TEHRAN · DIPLOMACY</div>
+    <h3>Iran: uranium stock stays at home</h3>
+    <p class="fdeck">Minister still seeks a “fair solution”.</p>
+    <div class="fsrcrow"><span class="src">Statement · ToI</span><span class="chip chip-official">OFFICIAL</span></div>
+  </article>
+  <article class="feat">
+    <div class="art"><svg viewBox="0 0 320 110" preserveAspectRatio="xMidYMid slice"><rect width="320" height="110" fill="#1d2a44"/>
+        <text x="160" y="86" font-family="Georgia" font-size="72" font-weight="bold" fill="#ffd76a" text-anchor="middle">%</text>
+        <rect x="18" y="14" width="52" height="10" fill="#b22234"/><rect x="18" y="24" width="52" height="10" fill="#fff"/><rect x="18" y="14" width="22" height="20" fill="#3c3b6e"/></svg></div>
+    <div class="fbanner">TRUMP: AI TAX</div>
+    <div class="fkicker">7 · WASHINGTON · TECHNOLOGY</div>
+    <h3>Trump vows tax on data centres abroad</h3>
+    <p class="fdeck">“Tremendous” penalty; no details yet.</p>
+    <div class="fsrcrow"><span class="src">Briefing · ABC</span><span class="chip chip-reported">REPORTED</span></div>
+  </article>
+  <article class="feat">
+    <div class="art"><svg viewBox="0 0 320 110" preserveAspectRatio="xMidYMid slice"><rect width="320" height="110" fill="#e8e2d2"/>
+        <rect x="24" y="22" width="120" height="66" fill="#de2910"/><g fill="#ffde00"><circle cx="52" cy="42" r="8"/><circle cx="86" cy="34" r="4"/><circle cx="98" cy="46" r="4"/><circle cx="92" cy="62" r="4"/><circle cx="74" cy="66" r="4"/></g>
+        <rect x="176" y="22" width="120" height="66" fill="#fff" stroke="#999" stroke-width="1"/><circle cx="236" cy="55" r="20" fill="#bc002d"/></svg></div>
+    <div class="fbanner">CHINA–JAPAN</div>
+    <div class="fkicker">8 · BEIJING · DIPLOMACY</div>
+    <h3>Beijing tells Tokyo to “correct” Taiwan words</h3>
+    <p class="fdeck">Tokyo says its stance is unchanged.</p>
+    <div class="fsrcrow"><span class="src">Ministry · AFP</span><span class="chip chip-official">OFFICIAL</span></div>
+  </article>
+  <article class="feat">
+    <div class="art"><svg viewBox="0 0 320 110" preserveAspectRatio="xMidYMid slice"><rect width="320" height="110" fill="#cfe3ee"/>
+        <g fill="#fff"><ellipse cx="70" cy="30" rx="34" ry="12"/><ellipse cx="250" cy="22" rx="40" ry="13"/></g>
+        <path d="M40 62 L250 62 L268 72 L250 76 L120 76 L100 92 L86 92 L96 76 L40 76z" fill="#e8e8e8" stroke="#555" stroke-width="1.5"/>
+        <path d="M150 62 L176 34 L188 34 L172 62z" fill="#c33"/><circle cx="60" cy="68" r="4" fill="#1d2a44"/></svg></div>
+    <div class="fbanner">DAVAO: 146 SAFE</div>
+    <div class="fkicker">9 · DAVAO · AVIATION</div>
+    <h3>Jet lands safely after engine fire alert</h3>
+    <p class="fdeck">Air Niugini 767 diverts after midnight.</p>
+    <div class="fsrcrow"><span class="src">Airline · AP</span><span class="chip chip-official">OFFICIAL</span></div>
+  </article>
+  <article class="feat">
+    <div class="art"><svg viewBox="0 0 320 110" preserveAspectRatio="xMidYMid slice"><rect width="320" height="110" fill="#dce8d8"/>
+        <rect x="26" y="20" width="120" height="52" rx="10" fill="#1d2a44"/><path d="M60 72 l-8 18 24 -18z" fill="#1d2a44"/>
+        <rect x="174" y="34" width="120" height="52" rx="10" fill="#a31d21"/><path d="M260 86 l-8 18 24 -18z" fill="#a31d21"/>
+        <circle cx="70" cy="46" r="4" fill="#fff"/><circle cx="92" cy="46" r="4" fill="#fff"/><circle cx="114" cy="46" r="4" fill="#fff"/>
+        <circle cx="216" cy="60" r="4" fill="#fff"/><circle cx="238" cy="60" r="4" fill="#fff"/><circle cx="260" cy="60" r="4" fill="#fff"/></svg></div>
+    <div class="fbanner">CANBERRA: AI</div>
+    <div class="fkicker">10 · CANBERRA · DIPLOMACY</div>
+    <h3>Australia and China agree AI talks</h3>
+    <p class="fdeck">Albanese ends an 11-day trip.</p>
+    <div class="fsrcrow"><span class="src">Agreed · ABC</span><span class="chip chip-official">OFFICIAL</span></div>
+  </article>
+  <article class="feat">
+    <div class="art"><svg viewBox="0 0 320 110" preserveAspectRatio="xMidYMid slice"><rect width="320" height="110" fill="#1d2a44"/>
+        <polyline points="20,24 80,34 130,30 190,58 250,52 300,88" fill="none" stroke="#ff5a5a" stroke-width="4"/>
+        <circle cx="252" cy="52" r="26" fill="#f7931a"/><text x="252" y="62" font-family="Georgia" font-size="30" font-weight="bold" fill="#fff" text-anchor="middle">₿</text>
+        <text x="24" y="100" font-family="Arial" font-size="13" font-weight="bold" fill="#ff8a8a">-3.9%</text></svg></div>
+    <div class="fbanner">BITCOIN: $58,983</div>
+    <div class="fkicker">11 · WORLD · MARKETS</div>
+    <h3>Bitcoin slips below $59,000</h3>
+    <p class="fdeck">Down 3.9% in 24 hours; ether $1,625.</p>
+    <div class="fsrcrow"><span class="src">CoinGecko · 02:08 UTC</span><span class="chip chip-confirmed">CONFIRMED</span></div>
+  </article>
+  <article class="feat">
+    <div class="art"><svg viewBox="0 0 320 110" preserveAspectRatio="xMidYMid slice"><rect width="320" height="110" fill="#20242c"/>
+        <path d="M0 84 Q110 30 200 62 T320 44" stroke="#4a4f5a" stroke-width="16" fill="none"/><path d="M0 84 Q110 30 200 62 T320 44" stroke="#ffd76a" stroke-width="2" stroke-dasharray="12 10" fill="none"/>
+        <g><rect x="120" y="46" width="86" height="16" rx="7" fill="#c8102e"/><circle cx="140" cy="64" r="9" fill="#111"/><circle cx="188" cy="64" r="9" fill="#111"/><circle cx="140" cy="64" r="3.5" fill="#888"/><circle cx="188" cy="64" r="3.5" fill="#888"/></g>
+        <g><rect x="268" y="10" width="34" height="24" fill="#fff"/><g fill="#111"><rect x="268" y="10" width="8.5" height="6"/><rect x="285" y="10" width="8.5" height="6"/><rect x="276.5" y="16" width="8.5" height="6"/><rect x="293.5" y="16" width="8.5" height="6"/><rect x="268" y="22" width="8.5" height="6"/><rect x="285" y="22" width="8.5" height="6"/></g><line x1="270" y1="34" x2="270" y2="52" stroke="#888" stroke-width="2"/></g></svg></div>
+    <div class="fbanner">RUSSELL: P1</div>
+    <div class="fkicker">12 · LAS VEGAS · FORMULA ONE</div>
+    <h3>Russell fastest in final Vegas practice</h3>
+    <p class="fdeck">1:34.041 in a damp, messy session.</p>
+    <div class="fsrcrow"><span class="src">Timing · Formula 1</span><span class="chip chip-official">OFFICIAL</span></div>
+  </article>
+  <article class="feat">
+    <div class="art"><svg viewBox="0 0 320 110" preserveAspectRatio="xMidYMid slice"><rect width="320" height="110" fill="#3f7a3a"/>
+        <rect x="120" y="18" width="80" height="74" fill="#d9c08a"/>
+        <g stroke="#fff" stroke-width="3"><line x1="146" y1="18" x2="146" y2="34"/><line x1="154" y1="18" x2="154" y2="34"/><line x1="162" y1="18" x2="162" y2="34"/><line x1="146" y1="76" x2="146" y2="92"/><line x1="154" y1="76" x2="154" y2="92"/><line x1="162" y1="76" x2="162" y2="92"/></g>
+        <rect x="216" y="30" width="10" height="52" rx="4" fill="#8a5a2b" transform="rotate(28 221 56)"/>
+        <circle cx="86" cy="76" r="9" fill="#a31d21"/><path d="M80 72 q6 4 12 0" stroke="#fff" stroke-width="1.5" fill="none"/></svg></div>
+    <div class="fbanner">RAHUL: 124*</div>
+    <div class="fkicker">13 · WELLINGTON · CRICKET</div>
+    <h3>Rahul century puts India on top</h3>
+    <p class="fdeck">India 344 for 2 at tea, replying to 368.</p>
+    <div class="fsrcrow"><span class="src">Tea, day 3 · AFP</span><span class="chip chip-official">OFFICIAL</span></div>
+  </article></div>
+<div class="bottom">
+  <div class="mapbox"><div class="sect">WHERE IT HAPPENED</div><svg viewBox="0 0 360 150" width="360" height="150"><rect width="360" height="150" fill="#dde3e6"/><line x1="30" y1="0" x2="30" y2="150" stroke="#c3ccd0" stroke-width="0.5"/><line x1="60" y1="0" x2="60" y2="150" stroke="#c3ccd0" stroke-width="0.5"/><line x1="90" y1="0" x2="90" y2="150" stroke="#c3ccd0" stroke-width="0.5"/><line x1="120" y1="0" x2="120" y2="150" stroke="#c3ccd0" stroke-width="0.5"/><line x1="150" y1="0" x2="150" y2="150" stroke="#c3ccd0" stroke-width="0.5"/><line x1="180" y1="0" x2="180" y2="150" stroke="#c3ccd0" stroke-width="0.5"/><line x1="210" y1="0" x2="210" y2="150" stroke="#c3ccd0" stroke-width="0.5"/><line x1="240" y1="0" x2="240" y2="150" stroke="#c3ccd0" stroke-width="0.5"/><line x1="270" y1="0" x2="270" y2="150" stroke="#c3ccd0" stroke-width="0.5"/><line x1="300" y1="0" x2="300" y2="150" stroke="#c3ccd0" stroke-width="0.5"/><line x1="330" y1="0" x2="330" y2="150" stroke="#c3ccd0" stroke-width="0.5"/><line x1="0" y1="125" x2="360" y2="125" stroke="#c3ccd0" stroke-width="0.5"/><line x1="0" y1="100" x2="360" y2="100" stroke="#c3ccd0" stroke-width="0.5"/><line x1="0" y1="75" x2="360" y2="75" stroke="#c3ccd0" stroke-width="0.5"/><line x1="0" y1="50" x2="360" y2="50" stroke="#c3ccd0" stroke-width="0.5"/><line x1="0" y1="25" x2="360" y2="25" stroke="#c3ccd0" stroke-width="0.5"/><polygon points="12.0,20.0 40.0,16.7 55.0,15.0 70.0,18.3 85.0,17.5 95.0,20.0 100.0,23.3 105.0,26.7 110.0,37.5 105.0,43.3 100.0,48.3 95.0,50.8 90.0,57.5 83.0,61.7 75.0,58.3 65.0,51.7 55.0,41.7 55.0,34.2 40.0,25.0 25.0,26.7 12.0,20.0" fill="#e7ddc0" stroke="#c9bd9c" stroke-width="0.7"/><polygon points="125.0,25.0 135.0,25.0 140.0,20.8 150.0,18.3 158.0,16.7 150.0,13.3 135.0,11.7 122.0,13.3 125.0,25.0" fill="#e7ddc0" stroke="#c9bd9c" stroke-width="0.7"/><polygon points="101.0,67.5 110.0,65.8 120.0,68.3 128.0,70.8 135.0,77.5 142.0,80.0 140.0,91.7 132.0,98.3 122.0,106.7 115.0,112.5 110.0,118.3 107.0,105.8 108.0,91.7 100.0,79.2 99.0,72.5 101.0,67.5" fill="#e7ddc0" stroke="#c9bd9c" stroke-width="0.7"/><polygon points="170.0,45.0 171.0,39.2 178.0,35.0 175.0,33.3 180.0,32.5 185.0,30.8 188.0,27.5 192.0,29.2 198.0,28.3 201.0,29.2 204.0,26.7 208.0,25.0 210.0,23.3 210.0,16.7 205.0,15.8 198.0,17.5 192.0,20.0 185.0,25.0 175.0,26.7 170.0,30.0 170.0,39.2 170.0,45.0" fill="#e7ddc0" stroke="#c9bd9c" stroke-width="0.7"/><polygon points="163.0,62.5 170.0,50.0 180.0,45.0 190.0,44.2 200.0,48.3 210.0,49.2 215.0,51.7 223.0,65.0 231.0,65.8 228.0,75.0 220.0,83.3 216.0,91.7 212.0,98.3 206.0,103.3 198.0,104.2 194.0,95.8 192.0,90.0 189.0,71.7 172.0,70.8 163.0,62.5" fill="#e7ddc0" stroke="#c9bd9c" stroke-width="0.7"/><polygon points="210.0,16.7 220.0,18.3 235.0,18.3 250.0,15.0 270.0,12.5 290.0,14.2 310.0,15.0 330.0,16.7 350.0,20.0 358.0,20.8 350.0,25.0 342.0,28.3 338.0,31.7 322.0,37.5 320.0,42.5 310.0,47.5 307.0,45.8 302.0,50.0 300.0,56.7 290.0,58.3 285.0,66.7 280.0,68.3 275.0,62.5 270.0,56.7 260.0,62.5 255.0,58.3 250.0,54.2 240.0,54.2 235.0,53.3 230.0,50.8 228.0,50.0 222.0,51.7 215.0,48.3 210.0,45.0 210.0,16.7" fill="#e7ddc0" stroke="#c9bd9c" stroke-width="0.7"/><polygon points="275.0,70.8 280.0,75.0 285.0,79.2 290.0,80.8 295.0,81.7 300.0,83.3 305.0,81.7 310.0,77.5 315.0,75.0 320.0,79.2 325.0,83.3 330.0,91.7 330.0,100.0 325.0,106.7 320.0,106.7 315.0,104.2 310.0,101.7 305.0,102.5 298.0,104.2 293.0,95.8 290.0,91.7 285.0,87.5 280.0,79.2 275.0,70.8" fill="#e7ddc0" stroke="#c9bd9c" stroke-width="0.7"/><g transform="translate(226.7 54.4)"><rect x="-7" y="-7" width="14" height="14" transform="rotate(45)" fill="#a31d21" stroke="#fff" stroke-width="1.2"/><text y="3.2" font-family="Arial" font-size="8.5" font-weight="bold" fill="#fff" text-anchor="middle">1</text></g><g transform="translate(210.7 44.3)"><rect x="-7" y="-7" width="14" height="14" transform="rotate(45)" fill="#a31d21" stroke="#fff" stroke-width="1.2"/><text y="3.2" font-family="Arial" font-size="8.5" font-weight="bold" fill="#fff" text-anchor="middle">2</text></g><g transform="translate(104.5 84.2)"><rect x="-7" y="-7" width="14" height="14" transform="rotate(45)" fill="#a31d21" stroke="#fff" stroke-width="1.2"/><text y="3.2" font-family="Arial" font-size="8.5" font-weight="bold" fill="#fff" text-anchor="middle">3</text></g><g transform="translate(210.5 33.0)"><rect x="-7" y="-7" width="14" height="14" transform="rotate(45)" fill="#a31d21" stroke="#fff" stroke-width="1.2"/><text y="3.2" font-family="Arial" font-size="8.5" font-weight="bold" fill="#fff" text-anchor="middle">4</text></g><g transform="translate(236.3 52.8)"><rect x="-7" y="-7" width="14" height="14" transform="rotate(45)" fill="#a31d21" stroke="#fff" stroke-width="1.2"/><text y="3.2" font-family="Arial" font-size="8.5" font-weight="bold" fill="#fff" text-anchor="middle">5</text></g><g transform="translate(231.4 45.2)"><rect x="-7" y="-7" width="14" height="14" transform="rotate(45)" fill="#a31d21" stroke="#fff" stroke-width="1.2"/><text y="3.2" font-family="Arial" font-size="8.5" font-weight="bold" fill="#fff" text-anchor="middle">6</text></g><g transform="translate(103.0 42.6)"><rect x="-7" y="-7" width="14" height="14" transform="rotate(45)" fill="#a31d21" stroke="#fff" stroke-width="1.2"/><text y="3.2" font-family="Arial" font-size="8.5" font-weight="bold" fill="#fff" text-anchor="middle">7</text></g><g transform="translate(296.4 41.8)"><rect x="-7" y="-7" width="14" height="14" transform="rotate(45)" fill="#a31d21" stroke="#fff" stroke-width="1.2"/><text y="3.2" font-family="Arial" font-size="8.5" font-weight="bold" fill="#fff" text-anchor="middle">8</text></g><g transform="translate(305.6 69.1)"><rect x="-7" y="-7" width="14" height="14" transform="rotate(45)" fill="#a31d21" stroke="#fff" stroke-width="1.2"/><text y="3.2" font-family="Arial" font-size="8.5" font-weight="bold" fill="#fff" text-anchor="middle">9</text></g><g transform="translate(329.1 104.4)"><rect x="-7" y="-7" width="14" height="14" transform="rotate(45)" fill="#a31d21" stroke="#fff" stroke-width="1.2"/><text y="3.2" font-family="Arial" font-size="8.5" font-weight="bold" fill="#fff" text-anchor="middle">10</text></g><g transform="translate(64.8 44.9)"><rect x="-7" y="-7" width="14" height="14" transform="rotate(45)" fill="#a31d21" stroke="#fff" stroke-width="1.2"/><text y="3.2" font-family="Arial" font-size="8.5" font-weight="bold" fill="#fff" text-anchor="middle">12</text></g><g transform="translate(354.8 109.4)"><rect x="-7" y="-7" width="14" height="14" transform="rotate(45)" fill="#a31d21" stroke="#fff" stroke-width="1.2"/><text y="3.2" font-family="Arial" font-size="8.5" font-weight="bold" fill="#fff" text-anchor="middle">13</text></g></svg><div class="mapnote">Red diamonds mark stories 1–13, numbered as above.</div></div>
+  <div class="briefbox"><div class="sect">ALSO ON SATURDAY 21 NOVEMBER — 22 MORE STORIES</div><div class="briefcols"><ol><li><b>14</b> <b>Kryvyi Rih:</b> Double strike kills 2, injures 42 <span class="bsrc">(Kyiv Indep.)</span></li><li><b>15</b> <b>Copenhagen:</b> Russian attaché expelled over a plot <span class="bsrc">(Al Jazeera)</span></li><li><b>16</b> <b>Antalya:</b> EU warns of a “fossil summit” <span class="bsrc">(AFP)</span></li><li><b>17</b> <b>Antalya:</b> Panama may block the deal <span class="bsrc">(Al Jazeera)</span></li><li><b>18</b> <b>Antalya:</b> PLN signs clean-power deals <span class="bsrc">(Antara)</span></li><li><b>19</b> <b>Yemen:</b> Houthis threaten Jeddah, Red Sea ports <span class="bsrc">(Al Jazeera)</span></li><li><b>20</b> <b>Washington:</b> Vance: Iran strikes were Trump's call <span class="bsrc">(Reuters)</span></li><li><b>21</b> <b>Washington:</b> Lawmaker threatens SpaceX funding <span class="bsrc">(CNN)</span></li><li><b>22</b> <b>Texas:</b> Execution of a man of 70 takes 63 min <span class="bsrc">(ABC)</span></li><li><b>23</b> <b>Los Angeles:</b> Jury convicts Palisades fire starter <span class="bsrc">(ABC)</span></li><li><b>24</b> <b>Missouri:</b> Judge approves $7.25bn Roundup deal <span class="bsrc">(AFP)</span></li></ol><ol><li><b>25</b> <b>Vancouver:</b> Canada rests defence in climate trial <span class="bsrc">(AFP)</span></li><li><b>26</b> <b>Pyongyang:</b> Kim tours factories, no Trump talks <span class="bsrc">(AFP)</span></li><li><b>27</b> <b>Sejong:</b> Freight train derails; no one hurt <span class="bsrc">(Korea Herald)</span></li><li><b>28</b> <b>Taipei:</b> Budget and cash payout passed <span class="bsrc">(Taipei Times)</span></li><li><b>29</b> <b>Bangkok:</b> Six-point plan on arsenic in rivers <span class="bsrc">(The Nation)</span></li><li><b>30</b> <b>New Delhi:</b> Pakistani minister joins SCO forum <span class="bsrc">(Dawn)</span></li><li><b>31</b> <b>Eastern India:</b> Rain alerts as Akvan's remnants move on <span class="bsrc">(ETV)</span></li><li><b>32</b> <b>Myanmar:</b> Rights groups urge sanctions <span class="bsrc">(AP)</span></li><li><b>33</b> <b>Port Louis:</b> Ratings agency talks to 15 states <span class="bsrc">(Al Jazeera)</span></li><li><b>34</b> <b>Melbourne:</b> Cummins keeps the captaincy <span class="bsrc">(ABC)</span></li><li><b>35</b> <b>Las Vegas:</b> Verstappen sent to stewards <span class="bsrc">(Autosport)</span></li></ol></div></div>
+</div>
+<div class="datecheck"><b>DATE CHECK</b> &nbsp;Left out because they belong to Friday 20 November: Wall Street's fall into correction · the Russian barrage on Kyiv's bridges · the missile that landed in Poland · the UK–EU deal · Cyclone Akvan's landfall. Older still: Voyager 1's light-day (18 Nov). Not confirmed when this page was drawn, so not shown: BepiColombo entering Mercury orbit · a final COP31 text.</div>
+<footer>Every story here happened, or was first reported, on Saturday 21 November 2026.<br>Sources named beside each story · Original drawings · HOW WE CHECKED: CONFIRMED = 2+ outlets · OFFICIAL = on the record · REPORTED = one outlet · CLAIM = one side's account</footer>
+</body></html>
