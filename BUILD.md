@@ -27,8 +27,13 @@ with red diamond pins, and its larger brief type.
 - Render 3x byte-identical: `poster/entry.png` 315,941 bytes, 1024×1024 RGB,
   sha256 `9ed6c638e76468a11c9a1a9e8cd533669916d7698d677a06e51c9358d06bce7e`.
 - `main.ts` test with `MAKEFUN_OUTPUT_DIR=/tmp/out21r3` wrote identical bytes.
-- Kit check (no transcripts): 4 passed, 1 failed — the only failure is
-  `transcripts_present`, expected before bundling.
+- Kit check with transcripts: **14 passed, 0 failed** (thinking_reproduces 77.3%,
+  501/648 authored; 137 absent lines, 21.1%, under the 40% cap). The first bundle
+  FAILED thinking_reproduces (46.9% absent) because stories35.json had been
+  reformatted by a Python script outside the transcript; rewriting the file as one
+  line through the agent's own file write fixed it (the JSON's lines are then
+  recorded as the agent's own writing). Bundle transcripts-r3.tar.gz 266,072 bytes,
+  sha256 `eb29fcefe07326549236d08415a7afc5c5bda11ec3a2c7d8799a241993974f4d`.
 
 ## Fixes during QA
 - First render overflowed to 1316px (bottom cut off): shrank masthead, stats,
